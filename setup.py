@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='my_command_line_tool',  # 项目名称
+    name='testman',  # 项目名称
     version='0.1.0',               # 项目版本
     packages=find_packages(),       # 自动找到所有包
     entry_points={
@@ -20,6 +20,6 @@ setup(
         'Operating System :: OS Independent',      # 支持的操作系统
     ],
     url='https://github.com/yourusername/my_command_line_tool',  # 项目主页或代码库
-    author='Your Name',           # 作者
-    author_email='your.email@example.com',  # 作者邮箱
+    author='Wu XuanBo',           # 作者
+    author_email='wuxuanbo@foxmail.com',  # 作者邮箱
 )
